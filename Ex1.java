@@ -13,7 +13,8 @@ public class Ex1 {
 
         int sum = (a+b+c);
         System.out.println(sum); 
-        int percentage = sum/3;
+       // int percentage = sum/3;
+       float percentage = sum / 300.0f * 100;
         System.out.println(percentage); 
     }
 }
